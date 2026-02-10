@@ -1,0 +1,80 @@
+ body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:#000;
+            color:#e5e5e5;
+        }
+
+        /* Center container */
+        main{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .form-box{
+            width:520px;
+        }
+
+        h1{
+            font-weight:500;
+            font-size:48px;
+            margin-bottom:30px;
+        }
+
+        form{
+            display:flex;
+            flex-direction:column;
+            gap:22px;
+        }
+
+        label{
+            font-size:16px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"]{
+            width:100%;
+            background:transparent;
+            border:none;
+            border-bottom:1px solid #777;
+            padding:8px 0;
+            color:white;
+            font-size:16px;
+            outline:none;
+        }
+
+        .radio-row{
+            display:flex;
+            gap:40px;
+            margin-top:5px;
+        }
+
+        .check-row{
+            margin-top:10px;
+        }
+
+        button{
+            margin-top:25px;
+            width:180px;
+            padding:12px;
+            font-size:16px;
+            border:none;
+            background:#ddd;
+            color:#111;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#bbb;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            font-size:14px;
+            color:#888;
+        }
